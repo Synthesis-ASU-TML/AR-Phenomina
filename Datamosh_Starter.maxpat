@@ -70,7 +70,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 439.0, 162.0, 50.0, 22.0 ],
-					"text" : "2"
+					"text" : "0"
 				}
 
 			}
@@ -292,7 +292,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 610.5, 153.0, 126.0, 22.0 ],
-					"text" : "metro 5000 @active 1"
+					"text" : "metro 6000 @active 1"
 				}
 
 			}
@@ -559,7 +559,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-33",
-					"items" : [ "Butterfly.mp4", ",", "Church.mp4", ",", "Clean Ocean.mp4", ",", "Clouds.mp4", ",", "eyes2.mp4", ",", "Forrest.mp4", ",", "Galaxy.mp4", ",", "meditation.mp4", ",", "Monk.mp4", ",", "Night Sky.mov" ],
+					"items" : [ "Butterfly.mp4", ",", "Church.mp4", ",", "Clean Ocean.mp4", ",", "Clouds.mp4", ",", "eyes2.mp4", ",", "Forrest1_1.mp4", ",", "Forrest2_1.mp4", ",", "Forrest3_1.mp4", ",", "Forrest4_1.mp4", ",", "Galaxy.mp4", ",", "meditation.mp4", ",", "Monk.mp4", ",", "Night Sky.mov" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -607,7 +607,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-29",
-					"items" : [ "Assembly Line.mp4", ",", "brain.mp4", ",", "Construction.mp4", ",", "Desert.mp4", ",", "Evil Mask.mp4", ",", "Monopoly.mp4", ",", "Ocean Pollution.mp4" ],
+					"items" : [ "Assembly Line.mp4", ",", "Assembly Line_1.mp4", ",", "Assembly Line_2.mp4", ",", "brain.mp4", ",", "Construction.mp4", ",", "Desert.mp4", ",", "Evil Mask.mp4", ",", "Monopoly.mp4", ",", "Ocean Pollution.mp4" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -647,7 +647,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 355.0, 596.0, 70.0, 22.0 ],
-					"text" : "loadmess 4"
+					"text" : "loadmess 1"
 				}
 
 			}
@@ -659,7 +659,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 355.0, 449.0, 70.0, 22.0 ],
-					"text" : "loadmess 3"
+					"text" : "loadmess 1"
 				}
 
 			}
@@ -768,8 +768,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 246.0, 299.0, 171.0, 22.0 ],
-					"text" : "jit.movie @vol 0 @automatic 0"
+					"patching_rect" : [ 242.0, 304.0, 219.0, 22.0 ],
+					"text" : "jit.movie @vol 0 @automatic 0 @loop 1"
 				}
 
 			}
@@ -792,8 +792,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 69.0, 299.0, 171.0, 22.0 ],
-					"text" : "jit.movie @vol 0 @automatic 0"
+					"patching_rect" : [ 17.0, 304.0, 219.0, 22.0 ],
+					"text" : "jit.movie @vol 0 @automatic 0 @loop 1"
 				}
 
 			}
