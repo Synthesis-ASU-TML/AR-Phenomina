@@ -39,13 +39,28 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.84 ],
+					"format" : 6,
+					"id" : "obj-64",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 613.1666259765625, 236.0, 50.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 305.5, 50.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-107",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 262.166656494140625, 190.0, 37.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "close"
 				}
 
@@ -72,7 +87,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 848.0, 1398.0, 50.0, 35.0 ],
-					"text" : "0.095252"
+					"text" : "0.072242"
 				}
 
 			}
@@ -85,7 +100,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 788.25, 1398.0, 50.0, 35.0 ],
-					"text" : "0.092687"
+					"text" : "0.052162"
 				}
 
 			}
@@ -98,19 +113,20 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 725.0, 1398.0, 50.0, 35.0 ],
-					"text" : "0.083316"
+					"text" : "0.038787"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-121",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 658.0, 1398.0, 50.0, 22.0 ],
-					"text" : "0."
+					"patching_rect" : [ 658.0, 1398.0, 50.0, 35.0 ],
+					"text" : "0.146981"
 				}
 
 			}
@@ -122,7 +138,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 598.25, 1398.0, 60.0, 22.0 ],
-					"text" : "0.15133"
+					"text" : "0.094462"
 				}
 
 			}
@@ -135,7 +151,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 535.0, 1398.0, 18.0, 116.0 ],
-					"text" : "0.134347"
+					"text" : "0.072242"
 				}
 
 			}
@@ -528,13 +544,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-140",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 380.42120361328125, 1461.0, 275.0, 35.0 ],
-					"text" : "0. 0.083316 0.092687 0.095252 0.112678 0.134347 0.15133"
+					"patching_rect" : [ 380.42120361328125, 1461.0, 275.0, 22.0 ],
+					"text" : "0.038787 0.052162 0.072242 0.09924 0.146981"
 				}
 
 			}
@@ -596,23 +611,8 @@
 					"patching_rect" : [ 642.0, 566.0, 300.0, 154.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 11,
-					"presentation_rect" : [ 21.0, 385.0, 300.0, 154.0 ],
+					"presentation_rect" : [ 12.0, 520.0, 300.0, 154.0 ],
 					"text" : "Media videos relating to\n1. our rationality/sense of self\n2. our basic beliefs (religion, metaphysics, etc)\n3. Our relationships (to ourselves, others, and things)\n4. our background (how we raised, external influences)\n5. The present state (happy, sad, etc)\n6. Our uniqueness (our internal world/mind)\n\nOTHER IDEAS:\n\"moment of harmony\" - spotlight turns on in the location where/when players are earning points."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-93",
-					"linecount" : 10,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 490.0, 566.0, 150.0, 141.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 8,
-					"presentation_rect" : [ 354.0, 112.0, 234.0, 114.0 ],
-					"text" : "Scaleable of difficulty for less players -- The game is easier the less people you have. 1 person will always be earning points\n\nNode Artifact can't earn points but affect the position of the point node. Feature not bug?"
 				}
 
 			}
@@ -625,8 +625,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 587.1666259765625, 701.0, 314.0, 194.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 15,
-					"presentation_rect" : [ 329.0, 331.0, 293.0, 208.0 ],
+					"presentation_linecount" : 23,
+					"presentation_rect" : [ 244.0, 192.0, 205.0, 315.0 ],
 					"text" : "Test points\n\nAvoidance (60 secs) - 21.47, 13.44, 18.15\nConversion (60 secs) - 147.62, 140.26, 76.132, 99.17\nFlocking (120 secs) - 61.49, 55.25, 50.68\nIndividual (60 secs) - 109.94, 53.26, 112.2\nLinear Path 1 (60) - 102.23, 125.28, 84.11\nlinear path 2 (60) - 61.29, 66.23, 61.19\nLinear path 3 (60) - 79.49, 79.24, 70.38\npopulation change (60) - 51.87, 44.74, 53.27\n\nLowest - 13.44\nHighest - 147.62 x 10 (for a 10 minute game) = 1476.2\nAvg - 73.54 = 734.4"
 				}
 
@@ -5623,9 +5623,9 @@
 					"displayknob" : 1,
 					"id" : "obj-47",
 					"maxclass" : "nodes",
-					"nodenumber" : 7,
-					"nodesnames" : [ "1", "2", "3", "4", "5", "6", "7" ],
-					"nsize" : [ 0.0, 0.134346998507086, 0.095251976113379, 0.083315808907036, 0.112678199125428, 0.151329850332933, 0.092687427523999 ],
+					"nodenumber" : 5,
+					"nodesnames" : [ "1", "2", "3", "4", "5" ],
+					"nsize" : [ 0.146980754028092, 0.099240377014046, 0.05216178492318, 0.072242151403038, 0.038787282514308 ],
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
@@ -5633,8 +5633,8 @@
 					"patching_rect" : [ 19.166656494140625, 1033.5, 224.0, 106.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 17.0, 82.0, 225.0, 120.0 ],
-					"xplace" : [ 0.0, 0.415822060902913, 0.292050902048747, 0.212825520833333, 0.287215169270833, 0.86793270111084, 0.98851998647054 ],
-					"yplace" : [ 0.0, 0.449136638641357, 0.109203886985779, 0.027591645717621, 0.013671875, 0.009098557382822, 0.614214420318604 ]
+					"xplace" : [ 0.506080818176269, 0.241027514139811, 0.31422176361084, 0.178611103693644, 0.443806298573812 ],
+					"yplace" : [ 0.407352733612061, 0.607269430160522, 0.609517049789429, 0.488075399398804, 0.387656855583191 ]
 				}
 
 			}
@@ -6022,19 +6022,6 @@
 					"outlettype" : [ "", "int", "int" ],
 					"patching_rect" : [ 613.1666259765625, 100.0, 48.0, 22.0 ],
 					"text" : "change"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"format" : 6,
-					"id" : "obj-64",
-					"maxclass" : "flonum",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 613.1666259765625, 236.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -6578,6 +6565,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-56", 0 ],
+					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-241", 0 ],
 					"source" : [ "obj-240", 0 ]
 				}
@@ -6685,13 +6679,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"source" : [ "obj-4", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-56", 0 ],
-					"source" : [ "obj-40", 0 ]
 				}
 
 			}
