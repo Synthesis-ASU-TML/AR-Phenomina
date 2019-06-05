@@ -44,8 +44,8 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 439.0, 499.5, 97.0, 22.0 ],
-					"text" : "scale 0. 1. 4. 0.8"
+					"patching_rect" : [ 439.0, 499.5, 90.0, 22.0 ],
+					"text" : "scale 0. 1. 4. 1."
 				}
 
 			}
@@ -620,7 +620,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-33",
-					"items" : [ "Butterfly.mp4", ",", "Church.mp4", ",", "Clean Ocean.mp4", ",", "Clouds.mp4", ",", "eyes2.mp4", ",", "Forrest1_1.mp4", ",", "Forrest2_1.mp4", ",", "Forrest3_1.mp4", ",", "Forrest4_1.mp4", ",", "Galaxy.mp4", ",", "meditation.mp4", ",", "Monk.mp4", ",", "Night Sky.mov" ],
+					"items" : [ "Butterfly.mp4", ",", "Church.mp4", ",", "Clean Ocean.mp4", ",", "Clouds.mp4", ",", "eyes2.mp4", ",", "Forrest1_1.mp4", ",", "Forrest2_1.mp4", ",", "Forrest3_1.mp4", ",", "Forrest4_1.mp4", ",", "Galaxy.mp4", ",", "meditation.mp4", ",", "Monk.mp4" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -668,7 +668,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-29",
-					"items" : [ "Assembly Line.mp4", ",", "Assembly Line_1.mp4", ",", "Assembly Line_2.mp4", ",", "brain.mp4", ",", "Construction.mp4", ",", "Desert.mp4", ",", "Evil Mask.mp4", ",", "Monopoly.mp4", ",", "Ocean Pollution.mp4" ],
+					"items" : [ "Assembly Line.mp4", ",", "Assembly Line_1.mp4", ",", "Assembly Line_2.mp4", ",", "brain.mp4", ",", "Desert.mp4", ",", "Evil Mask.mp4", ",", "Ocean Pollution.mp4" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -859,7 +859,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-10",
-					"items" : [ "Busy Street.mp4", ",", "Chess.mp4", ",", "Clock.mp4", ",", "Concert Crowd.mp4", ",", "hypercube.mp4", ",", "Mouse in maze.mp4", ",", "People.mp4", ",", "Tarot Cards.mp4" ],
+					"items" : [ "Busy Street.mp4", ",", "Chess.mp4", ",", "Clock.mp4", ",", "Concert Crowd.mp4", ",", "Monopoly.mp4", ",", "Mouse in maze.mp4", ",", "People.mp4", ",", "Tarot Cards.mp4" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
