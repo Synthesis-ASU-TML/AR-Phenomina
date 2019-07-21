@@ -39,12 +39,77 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-109",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1068.0, 317.0, 84.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 5.0, 97.0, 84.0, 20.0 ],
+					"text" : "Current Count"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-107",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 749.0, 153.0, 105.0, 22.0 ],
+					"text" : "jit.gl.syphonserver"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-108",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 538.0, 539.5, 71.0, 33.0 ],
+					"text" : "Save when not playing"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bubble" : 1,
+					"bubbleside" : 3,
+					"bubbleusescolors" : 1,
+					"id" : "obj-100",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 712.0, 189.0, 231.0, 24.0 ],
+					"text" : "REMEMBER TO CONNECT TO SAVE",
+					"textcolor" : [ 0.996078431606293, 0.0, 0.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-106",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 699.0, 501.0, 29.5, 22.0 ],
+					"text" : "0"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-103",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 951.49993896484375, 516.0, 108.0, 22.0 ],
+					"patching_rect" : [ 610.5, 539.5, 108.0, 22.0 ],
 					"text" : "exportimage, bang"
 				}
 
@@ -59,7 +124,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 702.0, 75.0, 80.0, 35.0 ],
+					"patching_rect" : [ 477.0, 63.5, 80.0, 35.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 60.0, 80.0, 35.0 ]
 				}
@@ -119,13 +184,13 @@
 			}
 , 			{
 				"box" : 				{
-					"color" : [ 0.976470588235294, 0.996078431372549, 0.0, 1.0 ],
+					"color" : [ 0.901960784313726, 0.211764705882353, 0.854901960784314, 1.0 ],
 					"id" : "obj-94",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 945.0, 183.0, 68.0, 22.0 ],
+					"patching_rect" : [ 945.0, 181.0, 68.0, 22.0 ],
 					"text" : "r gameplay"
 				}
 
@@ -197,7 +262,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 733.0, 523.0, 32.0, 22.0 ],
+					"patching_rect" : [ 733.0, 539.5, 32.0, 22.0 ],
 					"text" : "gate"
 				}
 
@@ -210,8 +275,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 807.0, 563.5, 382.0, 62.0 ],
-					"text" : "exportimage \"Macintosh HD:/Users/andrewrobinson/Desktop/GRAD/Phenomina (Feedback Game)/AR Metagame Phenomina/Final Images//Phenomina_Exp1.png\""
+					"patching_rect" : [ 643.5, 596.5, 382.0, 62.0 ],
+					"text" : "exportimage \"Macintosh HD:/Users/andrewrobinson/Desktop/GRAD/Phenomina (Feedback Game)/AR Metagame Phenomina/Final Images//Phenomina_Exp64.png\""
 				}
 
 			}
@@ -255,7 +320,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 807.0, 516.0, 136.0, 22.0 ],
+					"patching_rect" : [ 750.0, 516.0, 136.0, 22.0 ],
 					"text" : "prepend exportimage"
 				}
 
@@ -269,7 +334,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 807.0, 481.0, 179.0, 22.0 ],
+					"patching_rect" : [ 750.0, 481.0, 179.0, 22.0 ],
 					"text" : "combine path i .png @triggers 1"
 				}
 
@@ -344,7 +409,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1036.5, 317.0, 29.5, 22.0 ],
-					"text" : "0"
+					"presentation" : 1,
+					"presentation_rect" : [ 88.75, 96.0, 29.5, 22.0 ],
+					"text" : "64"
 				}
 
 			}
@@ -392,7 +459,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 945.0, 19.0, 59.0, 22.0 ],
+					"patching_rect" : [ 920.0, 59.5, 59.0, 22.0 ],
 					"text" : "1280 720"
 				}
 
@@ -404,7 +471,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 866.0, 19.0, 52.0, 22.0 ],
+					"patching_rect" : [ 841.0, 59.5, 52.0, 22.0 ],
 					"text" : "640 480"
 				}
 
@@ -416,7 +483,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 945.0, 58.0, 75.0, 22.0 ],
+					"patching_rect" : [ 920.0, 98.5, 75.0, 22.0 ],
 					"text" : "prepend dim"
 				}
 
@@ -428,7 +495,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 866.0, 58.0, 77.0, 22.0 ],
+					"patching_rect" : [ 841.0, 98.5, 77.0, 22.0 ],
 					"text" : "prepend size"
 				}
 
@@ -441,7 +508,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 817.0, 23.0, 24.0, 24.0 ]
+					"patching_rect" : [ 792.0, 63.5, 24.0, 24.0 ]
 				}
 
 			}
@@ -452,7 +519,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 817.0, 58.0, 32.0, 22.0 ],
+					"patching_rect" : [ 792.0, 98.5, 32.0, 22.0 ],
 					"text" : "gate"
 				}
 
@@ -464,14 +531,14 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 817.0, 84.0, 85.0, 22.0 ],
+					"patching_rect" : [ 792.0, 124.5, 85.0, 22.0 ],
 					"text" : "s RenderBang"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"color" : [ 0.976470588235294, 0.996078431372549, 0.0, 1.0 ],
+					"color" : [ 0.901960784313726, 0.211764705882353, 0.854901960784314, 1.0 ],
 					"id" : "obj-83",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -514,13 +581,13 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 439.0, 499.5, 97.0, 22.0 ],
-					"text" : "scale 0. 1. 12. 0."
+					"text" : "scale 0. 1. 4. 0.5"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"color" : [ 0.976470588235294, 0.996078431372549, 0.0, 1.0 ],
+					"color" : [ 0.901960784313726, 0.211764705882353, 0.854901960784314, 1.0 ],
 					"id" : "obj-87",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -550,7 +617,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 355.0, 545.0, 70.0, 22.0 ],
+					"patching_rect" : [ 355.0, 580.0, 70.0, 22.0 ],
 					"text" : "loadmess 0"
 				}
 
@@ -562,14 +629,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 355.0, 572.0, 131.0, 22.0 ],
+					"patching_rect" : [ 355.0, 607.0, 131.0, 22.0 ],
 					"text" : "prepend use_threshold"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"color" : [ 0.976470588235294, 0.996078431372549, 0.0, 1.0 ],
+					"color" : [ 0.901960784313726, 0.211764705882353, 0.854901960784314, 1.0 ],
 					"id" : "obj-81",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -606,7 +673,7 @@
 			}
 , 			{
 				"box" : 				{
-					"color" : [ 0.976470588235294, 0.996078431372549, 0.0, 1.0 ],
+					"color" : [ 0.901960784313726, 0.211764705882353, 0.854901960784314, 1.0 ],
 					"id" : "obj-80",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -643,7 +710,7 @@
 			}
 , 			{
 				"box" : 				{
-					"color" : [ 0.976470588235294, 0.996078431372549, 0.0, 1.0 ],
+					"color" : [ 0.901960784313726, 0.211764705882353, 0.854901960784314, 1.0 ],
 					"id" : "obj-56",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -716,7 +783,7 @@
 			}
 , 			{
 				"box" : 				{
-					"color" : [ 0.976470588235294, 0.996078431372549, 0.0, 1.0 ],
+					"color" : [ 0.901960784313726, 0.211764705882353, 0.854901960784314, 1.0 ],
 					"id" : "obj-34",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -767,11 +834,11 @@
 					"presentation_rect" : [ 5.0, 5.0, 119.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "live.tab",
+							"parameter_enum" : [ "good", "neutral", "bad" ],
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 0,
-							"parameter_longname" : "live.tab",
-							"parameter_shortname" : "live.tab",
-							"parameter_enum" : [ "good", "neutral", "bad" ]
+							"parameter_longname" : "live.tab"
 						}
 
 					}
@@ -1067,7 +1134,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-33",
-					"items" : [ "Butterflies.mp4", ",", "Church.mp4", ",", "Clean Ocean.mp4", ",", "Clock.mp4", ",", "Clouds.mp4", ",", "Earth.mp4", ",", "eyes2.mp4", ",", "Forrest1_1.mp4", ",", "Forrest2_1.mp4", ",", "Forrest3_1.mp4", ",", "Forrest4_1.mp4", ",", "Galaxy.mp4", ",", "meditation.mp4", ",", "Monk.mp4" ],
+					"items" : [ "Butterflies.mp4", ",", "Church.mp4", ",", "Clean Ocean.mp4", ",", "Clock.mp4", ",", "Clouds.mp4", ",", "couple holding hands and caress stock footage free.mp4", ",", "Earth.mp4", ",", "eyes2.mp4", ",", "Forrest1_1.mp4", ",", "Forrest2_1.mp4", ",", "Forrest3_1.mp4", ",", "Forrest4_1.mp4", ",", "Galaxy.mp4", ",", "meditation.mp4", ",", "Monk.mp4", ",", "stars.mp4" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1115,7 +1182,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-29",
-					"items" : [ "Assembly Line_1.mp4", ",", "brain.mp4", ",", "Clock.mp4", ",", "Desert.mp4", ",", "Evil Mask.mp4", ",", "fire.mp4", ",", "Free Stock Footage Prison Cell 2.mp4", ",", "Ocean Pollution.mp4" ],
+					"items" : [ "Assembly Line_1.mp4", ",", "Bacteria.mp4", ",", "betterfire.mp4", ",", "brain.mp4", ",", "Breaking Glass Test.mp4", ",", "caution.mp4", ",", "Clock.mp4", ",", "Desert.mp4", ",", "Evil Mask.mp4", ",", "Free Stock Footage Prison Cell 2.mp4", ",", "meat.mp4", ",", "Ocean Pollution.mp4", ",", "Plastic.mp4" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1154,7 +1221,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 355.0, 453.0, 70.0, 22.0 ],
+					"patching_rect" : [ 355.0, 457.0, 70.0, 22.0 ],
 					"text" : "loadmess 4"
 				}
 
@@ -1168,7 +1235,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 355.0, 481.0, 50.0, 22.0 ]
+					"patching_rect" : [ 355.0, 488.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -1179,7 +1246,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 355.0, 509.0, 69.0, 22.0 ],
+					"patching_rect" : [ 355.0, 516.0, 69.0, 22.0 ],
 					"text" : "prepend lpf"
 				}
 
@@ -1306,7 +1373,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-10",
-					"items" : [ "Bench.mp4", ",", "Busy Street.mp4", ",", "Chess.mp4", ",", "Clock.mp4", ",", "Dice1.mp4", ",", "Dice2.mp4", ",", "Door_1.mp4", ",", "Monopoly.mp4", ",", "Mouse in maze.mp4", ",", "Numbers.mp4", ",", "People.mp4", ",", "Tarot Cards.mp4", ",", "window.mp4" ],
+					"items" : [ "Aerial Shot Of Busy Highway - Free Stock Footage.mp4", ",", "Bench.mp4", ",", "Busy Street.mp4", ",", "Chess.mp4", ",", "Clock.mp4", ",", "cocoon.mp4", ",", "Dice1.mp4", ",", "Dice2.mp4", ",", "Door_1.mp4", ",", "flowerdying.mp4", ",", "Monopoly.mp4", ",", "Mouse in maze.mp4", ",", "Nervous, stressing, confused, frozen, clenching hands and fists. Free HD video stock footage.mp4", ",", "People.mp4", ",", "singletree_1.mp4", ",", "Tarot Cards.mp4", ",", "wind chimes.mp4", ",", "window.mp4" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1716,8 +1783,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "bang", "" ],
-					"patching_rect" : [ 446.0, 33.0, 346.0, 22.0 ],
-					"text" : "jit.world @floating 1 @fsmenubar 0 @fsaa 1 @output_texture 1"
+					"patching_rect" : [ 446.0, 33.0, 467.0, 22.0 ],
+					"text" : "jit.world phenvideo @floating 1 @fsmenubar 0 @fsaa 1 @output_texture 1 @shared 1"
 				}
 
 			}
@@ -1761,6 +1828,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-46", 0 ],
 					"source" : [ "obj-105", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-120", 0 ],
+					"source" : [ "obj-106", 0 ]
 				}
 
 			}
@@ -2284,6 +2358,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-107", 0 ],
+					"order" : 0,
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
 					"order" : 1,
 					"source" : [ "obj-6", 1 ]
@@ -2301,6 +2383,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-60", 0 ],
+					"order" : 1,
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -2485,6 +2568,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-86", 0 ],
+					"source" : [ "obj-80", 0 ]
 				}
 
 			}
@@ -2713,13 +2803,17 @@
 				"type" : "gJIT",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "jit.gl.syphonserver.mxo",
+				"type" : "iLaX"
+			}
  ],
 		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
