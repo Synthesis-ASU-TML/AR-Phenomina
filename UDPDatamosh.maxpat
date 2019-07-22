@@ -477,13 +477,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-119",
-					"linecount" : 4,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 643.5, 596.5, 382.0, 62.0 ],
-					"text" : "exportimage \"Macintosh HD:/Users/andrewrobinson/Desktop/GRAD/Phenomina (Feedback Game)/AR Metagame Phenomina/Final Images//Phenomina_Exp68.png\""
+					"patching_rect" : [ 643.5, 596.5, 382.0, 22.0 ],
+					"text" : "exportimage pathPhenomina_Exp68.png"
 				}
 
 			}
@@ -938,11 +937,11 @@
 					"presentation_rect" : [ 5.0, 5.0, 119.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_unitstyle" : 0,
+							"parameter_longname" : "live.tab",
 							"parameter_shortname" : "live.tab",
 							"parameter_enum" : [ "good", "neutral", "bad" ],
-							"parameter_type" : 2,
-							"parameter_unitstyle" : 0,
-							"parameter_longname" : "live.tab"
+							"parameter_type" : 2
 						}
 
 					}
