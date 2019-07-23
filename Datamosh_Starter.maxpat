@@ -39,6 +39,42 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-124",
+					"maxclass" : "newobj",
+					"numinlets" : 6,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 695.0, 85.5, 133.0, 22.0 ],
+					"text" : "scale 1. 0.5 8000. 1000"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-121",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 722.0, 57.0, 55.0, 22.0 ],
+					"text" : "r intTime"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-118",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 709.0, 113.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-109",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -276,7 +312,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 643.5, 596.5, 382.0, 62.0 ],
-					"text" : "exportimage \"Macintosh HD:/Users/andrewrobinson/Desktop/GRAD/Phenomina (Feedback Game)/AR Metagame Phenomina/Final Images//Phenomina_Exp64.png\""
+					"text" : "exportimage \"Macintosh HD:/Users/andrewrobinson/Desktop/GRAD/Phenomina (Feedback Game)/AR Metagame Phenomina/Final Images//Phenomina_Exp75.png\""
 				}
 
 			}
@@ -411,7 +447,7 @@
 					"patching_rect" : [ 1036.5, 317.0, 29.5, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 88.75, 96.0, 29.5, 22.0 ],
-					"text" : "64"
+					"text" : "75"
 				}
 
 			}
@@ -581,7 +617,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 439.0, 499.5, 97.0, 22.0 ],
-					"text" : "scale 0. 1. 4. 0.5"
+					"text" : "scale 0. 1. 12. 0."
 				}
 
 			}
@@ -834,11 +870,11 @@
 					"presentation_rect" : [ 5.0, 5.0, 119.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "live.tab",
 							"parameter_enum" : [ "good", "neutral", "bad" ],
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 0,
-							"parameter_longname" : "live.tab"
+							"parameter_longname" : "live.tab",
+							"parameter_shortname" : "live.tab"
 						}
 
 					}
@@ -1134,7 +1170,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-33",
-					"items" : [ "Butterflies.mp4", ",", "Church.mp4", ",", "Clean Ocean.mp4", ",", "Clock.mp4", ",", "Clouds.mp4", ",", "couple holding hands and caress stock footage free.mp4", ",", "Earth.mp4", ",", "eyes2.mp4", ",", "Forrest1_1.mp4", ",", "Forrest2_1.mp4", ",", "Forrest3_1.mp4", ",", "Forrest4_1.mp4", ",", "Galaxy.mp4", ",", "meditation.mp4", ",", "Monk.mp4", ",", "stars.mp4" ],
+					"items" : [ "Butterflies.mp4", ",", "Church.mp4", ",", "Clock.mp4", ",", "Clouds.mp4", ",", "couple holding hands and caress stock footage free.mp4", ",", "Earth.mp4", ",", "eyes2.mp4", ",", "Forrest1_1.mp4", ",", "Forrest2_1.mp4", ",", "Forrest3_1.mp4", ",", "Forrest4_1.mp4", ",", "Galaxy.mp4", ",", "meditation.mp4", ",", "Monk.mp4", ",", "stars.mp4", ",", "Vintage Magnetic Compass Finding North - Free Stock Video Download - Free Stock Video Footage.mp4" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1182,7 +1218,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-29",
-					"items" : [ "Assembly Line_1.mp4", ",", "Bacteria.mp4", ",", "betterfire.mp4", ",", "brain.mp4", ",", "Breaking Glass Test.mp4", ",", "caution.mp4", ",", "Clock.mp4", ",", "Desert.mp4", ",", "Evil Mask.mp4", ",", "Free Stock Footage Prison Cell 2.mp4", ",", "meat.mp4", ",", "Ocean Pollution.mp4", ",", "Plastic.mp4" ],
+					"items" : [ "Assembly Line_1.mp4", ",", "brain.mp4", ",", "Breaking News Lower Third Red FREE HD Stock.mp4", ",", "caution.mp4", ",", "Clock.mp4", ",", "Desert.mp4", ",", "Destruction1.mp4", ",", "destruction2.mp4", ",", "Evil Mask.mp4", ",", "fire.mp4", ",", "Free Stock Footage Prison Cell 2.mp4", ",", "glass.mp4", ",", "HD Crowd Running Fast.mp4", ",", "meat.mp4", ",", "Ocean Pollution.mp4", ",", "Plastic.mp4" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1373,7 +1409,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-10",
-					"items" : [ "Aerial Shot Of Busy Highway - Free Stock Footage.mp4", ",", "Bench.mp4", ",", "Busy Street.mp4", ",", "Chess.mp4", ",", "Clock.mp4", ",", "cocoon.mp4", ",", "Dice1.mp4", ",", "Dice2.mp4", ",", "Door_1.mp4", ",", "flowerdying.mp4", ",", "Monopoly.mp4", ",", "Mouse in maze.mp4", ",", "Nervous, stressing, confused, frozen, clenching hands and fists. Free HD video stock footage.mp4", ",", "People.mp4", ",", "singletree_1.mp4", ",", "Tarot Cards.mp4", ",", "wind chimes.mp4", ",", "window.mp4" ],
+					"items" : [ "Aerial Shot Of Busy Highway - Free Stock Footage.mp4", ",", "Bench.mp4", ",", "Busy Street.mp4", ",", "Chess.mp4", ",", "Clock.mp4", ",", "cocoon.mp4", ",", "Dice1.mp4", ",", "Door_1.mp4", ",", "Monopoly.mp4", ",", "Mouse in maze.mp4", ",", "Nervous, stressing, confused, frozen, clenching hands and fists. Free HD video stock footage.mp4", ",", "People.mp4", ",", "singletree_1.mp4", ",", "Tarot Cards.mp4", ",", "wind chimes.mp4", ",", "window.mp4" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1900,6 +1936,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-73", 1 ],
+					"source" : [ "obj-118", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-75", 0 ],
 					"source" : [ "obj-12", 0 ]
 				}
@@ -1914,6 +1957,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-124", 0 ],
+					"source" : [ "obj-121", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-120", 0 ],
 					"source" : [ "obj-122", 0 ]
 				}
@@ -1923,6 +1973,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-122", 0 ],
 					"source" : [ "obj-123", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-118", 0 ],
+					"source" : [ "obj-124", 0 ]
 				}
 
 			}
@@ -2812,8 +2869,8 @@
 		"styles" : [ 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

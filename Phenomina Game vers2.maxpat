@@ -482,10 +482,10 @@
 					"patching_rect" : [ 573.0, 1598.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "live.dial",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0,
-							"parameter_longname" : "live.dial"
+							"parameter_longname" : "live.dial",
+							"parameter_shortname" : "live.dial"
 						}
 
 					}
@@ -1003,11 +1003,11 @@
 					"presentation_rect" : [ 244.0, 112.0, 106.0, 91.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "live.tab",
 							"parameter_enum" : [ "Good", "Neutral", "Bad" ],
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 0,
-							"parameter_longname" : "live.tab"
+							"parameter_longname" : "live.tab",
+							"parameter_shortname" : "live.tab"
 						}
 
 					}
@@ -1042,12 +1042,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-140",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 290.42120361328125, 1438.0, 275.0, 22.0 ],
-					"text" : "0.07326 0.101594 0.173987 0.183998 0.283397"
+					"patching_rect" : [ 290.42120361328125, 1438.0, 275.0, 35.0 ],
+					"text" : "0.040304 0.058108 0.073926 0.147626 0.197753 0.270505 0.33291"
 				}
 
 			}
@@ -1550,11 +1551,11 @@
 					"presentation_rect" : [ 136.0, 16.5, 125.0, 35.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_shortname" : "live.text",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_type" : 2,
 							"parameter_longname" : "live.text",
-							"parameter_mmax" : 1.0
+							"parameter_mmax" : 1.0,
+							"parameter_shortname" : "live.text"
 						}
 
 					}
@@ -5994,9 +5995,9 @@
 					"displayknob" : 1,
 					"id" : "obj-47",
 					"maxclass" : "nodes",
-					"nodenumber" : 4,
-					"nodesnames" : [ "1", "2", "3", "4" ],
-					"nsize" : [ 0.283396857954402, 0.183998428977201, 0.101593715908804, 0.073260362461645 ],
+					"nodenumber" : 7,
+					"nodesnames" : [ "1", "2", "3", "4", "5", "6", "7" ],
+					"nsize" : [ 0.332910201747055, 0.270505100873528, 0.197752550436764, 0.147626275218382, 0.073926455905762, 0.058107696998813, 0.040303848499406 ],
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
@@ -6004,8 +6005,8 @@
 					"patching_rect" : [ 23.166656494140625, 1067.5, 224.0, 106.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 17.0, 85.5, 225.0, 120.0 ],
-					"xplace" : [ 0.745486704508464, 0.415780131022135, 0.749771690368652, 0.514108912150065 ],
-					"yplace" : [ 0.856531429290772, 0.722447538375855, 0.544509840011597, 0.601536703109741 ]
+					"xplace" : [ 0.065894647439321, 0.094408734639486, 0.940055020650228, 0.198493591944377, 0.910625012715658, 0.839926274617513, 0.803722190856934 ],
+					"yplace" : [ 0.278380727767944, 0.527886247634888, 0.296507501602173, 0.043891024589539, 0.257124996185303, 0.453531932830811, 0.192902779579163 ]
 				}
 
 			}
@@ -7908,9 +7909,9 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-42" : [ "live.tab", "live.tab", 0 ],
 			"obj-77" : [ "live.text", "live.text", 0 ],
 			"obj-142" : [ "live.dial", "live.dial", 0 ],
-			"obj-42" : [ "live.tab", "live.tab", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -7982,8 +7983,8 @@
 		"styles" : [ 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
