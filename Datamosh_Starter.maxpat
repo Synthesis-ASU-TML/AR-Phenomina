@@ -68,7 +68,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 59.0, 104.0, 640.0, 480.0 ],
+						"rect" : [ 333.0, 164.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -176,7 +176,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 368.0, 30.0, 30.0 ]
+									"patching_rect" : [ 50.0, 431.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -188,7 +188,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "jit_matrix" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 180.0810546875, 30.0, 30.0 ]
 								}
 
@@ -648,8 +648,8 @@
 						"styles" : [ 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -658,7 +658,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 17.0, 370.5, 107.0, 22.0 ],
+					"patching_rect" : [ 12.0, 222.0, 107.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -677,8 +677,8 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 695.0, 85.5, 140.0, 22.0 ],
-					"text" : "scale 1. 0.5 12000. 2000"
+					"patching_rect" : [ 695.0, 85.5, 137.0, 22.0 ],
+					"text" : "scale 1. 0.5 12000 2000"
 				}
 
 			}
@@ -939,13 +939,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-119",
-					"linecount" : 4,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 643.5, 596.5, 382.0, 62.0 ],
-					"text" : "exportimage \"Macintosh HD:/Users/andrewrobinson/Desktop/GRAD/Phenomina (Feedback Game)/AR Metagame Phenomina/Final Images//Phenomina_Exp84.png\""
+					"patching_rect" : [ 643.5, 596.5, 382.0, 22.0 ],
+					"text" : "exportimage pathPhenomena_Exp89.png"
 				}
 
 			}
@@ -1041,8 +1040,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 936.0, 447.0, 151.0, 22.0 ],
-					"text" : "combine Phenomina_Exp i"
+					"patching_rect" : [ 936.0, 447.0, 155.0, 22.0 ],
+					"text" : "combine Phenomena_Exp i"
 				}
 
 			}
@@ -1080,7 +1079,7 @@
 					"patching_rect" : [ 1036.5, 317.0, 29.5, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 88.75, 96.0, 29.5, 22.0 ],
-					"text" : "84"
+					"text" : "89"
 				}
 
 			}
@@ -1503,11 +1502,11 @@
 					"presentation_rect" : [ 5.0, 5.0, 119.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "live.tab",
 							"parameter_enum" : [ "good", "neutral", "bad" ],
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 0,
-							"parameter_longname" : "live.tab",
-							"parameter_shortname" : "live.tab"
+							"parameter_longname" : "live.tab"
 						}
 
 					}
@@ -1803,7 +1802,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-33",
-					"items" : [ "Butterflies.mp4", ",", "Church.mp4", ",", "Clock.mp4", ",", "Clouds.mp4", ",", "Compass.mp4", ",", "Earth.mp4", ",", "eyes2.mp4", ",", "Forrest1_1.mp4", ",", "Forrest2_1.mp4", ",", "Forrest3_1.mp4", ",", "Forrest4_1.mp4", ",", "Galaxy.mp4", ",", "Holding Hands.mp4", ",", "meditation.mp4", ",", "Monk.mp4" ],
+					"items" : [ "Butterflies.mp4", ",", "Church.mp4", ",", "Clock.mp4", ",", "Clouds.mp4", ",", "Compass.mp4", ",", "Earth.mp4", ",", "eyes2.mp4", ",", "Forrest1_1.mp4", ",", "Forrest2_1.mp4", ",", "Forrest3_1.mp4", ",", "Forrest4_1.mp4", ",", "Galaxy.mp4", ",", "Holding Hands.mp4", ",", "meditation.mp4", ",", "Monk.mp4", ",", "mountain.mov", ",", "piano.mp4", ",", "youth.mp4" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1851,7 +1850,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-29",
-					"items" : [ "Assembly Line_1.mp4", ",", "brain.mp4", ",", "Breaking News Lower Third Red FREE HD Stock.mp4", ",", "Bulldozer.mp4", ",", "caution.mp4", ",", "Clock.mp4", ",", "Desert.mp4", ",", "Evil Mask.mp4", ",", "fire.mp4", ",", "Free Stock Footage Prison Cell 2.mp4", ",", "glass.mp4", ",", "HD Crowd Running Fast.mp4", ",", "meat.mp4", ",", "Ocean Pollution.mp4", ",", "Plastic.mp4", ",", "Tv screen.mp4" ],
+					"items" : [ "Assembly Line_1.mp4", ",", "brain.mp4", ",", "Breaking News Lower Third Red FREE HD Stock.mp4", ",", "Bulldozer.mp4", ",", "caution.mp4", ",", "Cells.mp4", ",", "cigarette.mp4", ",", "climate.mp4", ",", "Clock.mp4", ",", "crowd.mp4", ",", "Desert.mp4", ",", "Enclosed.mp4", ",", "Evil Mask.mp4", ",", "fire.mp4", ",", "glass.mp4", ",", "Jail.mp4", ",", "meat.mp4", ",", "Money.mp4", ",", "Moon Night Darkness Night Sky Full Moon Sky No Copyright Video.mp4", ",", "Ocean Pollution.mp4", ",", "Pills.mp4", ",", "pills2.mp4", ",", "Plastic.mp4", ",", "Smartphone.mov", ",", "Tv screen.mp4" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2042,7 +2041,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-10",
-					"items" : [ "Aerial Shot Of Busy Highway - Free Stock Footage.mp4", ",", "Bench.mp4", ",", "bike.mp4", ",", "Busy Street.mp4", ",", "Chess.mp4", ",", "Clock.mp4", ",", "cocoon.mp4", ",", "Dice1.mp4", ",", "Door_1.mp4", ",", "Monopoly.mp4", ",", "Mouse in maze.mp4", ",", "Nervous, stressing, confused, frozen, clenching hands and fists. Free HD video stock footage.mp4", ",", "People.mp4", ",", "singletree_1.mp4", ",", "Tarot Cards.mp4", ",", "water well.mp4", ",", "wind chimes.mp4", ",", "window.mp4" ],
+					"items" : [ "Aerial Shot Of Busy Highway - Free Stock Footage.mp4", ",", "Bench.mp4", ",", "bike.mp4", ",", "Busy Street.mp4", ",", "CamcorderLenseCloseUp_Videvo.mov", ",", "Candle_1.mp4", ",", "Chess.mp4", ",", "Clock.mp4", ",", "cocoon.mp4", ",", "Dice1.mp4", ",", "Door_1.mp4", ",", "Keyhole1_Videvo.mov", ",", "light.mov", ",", "Microscope.mov", ",", "Monopoly.mp4", ",", "Mouse in maze.mp4", ",", "Nervous, stressing, confused, frozen, clenching hands and fists. Free HD video stock footage.mp4", ",", "People.mp4", ",", "singletree_1.mp4", ",", "Tarot Cards.mp4", ",", "Train.mov", ",", "well.mp4", ",", "wind chimes.mp4", ",", "windmills_cluster720p.mov", ",", "window.mp4" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2224,7 +2223,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 101.0, 55.0, 22.0 ],
+									"patching_rect" : [ 50.0, 121.0, 55.0, 22.0 ],
 									"text" : "/ maxval"
 								}
 
@@ -2236,7 +2235,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 176.0, 40.0, 99.0, 22.0 ],
+									"patching_rect" : [ 315.0, 40.0, 99.0, 22.0 ],
 									"text" : "param maxval 2."
 								}
 
@@ -2248,7 +2247,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 69.0, 43.0, 22.0 ],
+									"patching_rect" : [ 50.0, 93.800003051757812, 43.0, 22.0 ],
 									"text" : "length"
 								}
 
@@ -2260,7 +2259,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 40.0, 46.0, 22.0 ],
+									"patching_rect" : [ 50.0, 60.0, 46.0, 22.0 ],
 									"text" : "swiz rg"
 								}
 
@@ -2509,7 +2508,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-172", 0 ],
+					"destination" : [ "obj-15", 0 ],
 					"order" : 1,
 					"source" : [ "obj-11", 0 ]
 				}
@@ -2666,13 +2665,6 @@
 					"destination" : [ "obj-24", 0 ],
 					"order" : 0,
 					"source" : [ "obj-17", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-15", 0 ],
-					"source" : [ "obj-172", 0 ]
 				}
 
 			}
@@ -3518,8 +3510,8 @@
 		"styles" : [ 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
